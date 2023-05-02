@@ -46,7 +46,7 @@ class RegisterViewController: UIViewController {
         
         
     }()
-    private let lastNameField:UITextFiel = {
+    private let lastNameField:UITextField = {
         let field = UITextField()
         field.autocapitalizationType = .none
         field.autocorrectionType = .no
